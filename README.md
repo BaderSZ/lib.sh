@@ -2,7 +2,9 @@
 Implementing LIBC for bash, purely in bash.
 
 #HOWTO
-simply include the desired file via `source src/file.sh`
+Simply include the desired file via `source src/file.sh`
+
+Since bash/sh does not have C-style returns, every return value is saved in the $RETVAL variable.
 
 #LICENSE
 This is available under the GPLv3.0. See License.txt for more info
