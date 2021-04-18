@@ -37,6 +37,12 @@ abs() {
 }
 
 div() {
+  if [[ $# != 2 ]]
+  then
+    echo "Incorrect number of arguments: 2 needed, got $#"
+    return ${EXIT_FAILURE}
+  fi
+
   RETVAL=$(echo "scale=2 ; ${1} / ${2}" | bc)
 }
 
