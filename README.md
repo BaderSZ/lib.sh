@@ -1,6 +1,16 @@
 #LIB.SH
 Implementing LIBC for bash, purely in bash.
 
+#FAQ
+Q: But... why?
+A: Why not?
+
+Q: Really. Why?
+A: I was bored. :/
+
+#REQUIREMENTS
+So far, the only necessary packages are `bash` and `bc` for mathematical functions.
+
 #HOWTO
 Simply include the desired file via `source src/file.sh`. To include all, add `source lib.sh` to your script.
 
