@@ -1,6 +1,6 @@
 #!/bin/env bash
 
-source stdlib.h
+source stdlib.sh
 
 # Copyright (C) 2021 Bader Zaidan
 
