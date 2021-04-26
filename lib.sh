@@ -2,6 +2,8 @@
 #set -euo pipefail
 
 
+source src/stdlib.sh
+
 source src/assert.sh
 source src/complex.sh
 source src/ctype.sh
@@ -15,13 +17,11 @@ source src/locale.sh
 source src/math.sh
 source src/setjmp.sh
 source src/signal.sh
-source src/stdalign.sh
 source src/stdarg.sh
 source src/stdbool.sh
 source src/stddef.sh
 source src/stdint.sh
 source src/stdio.sh
-source src/stdlib.sh
 source src/stdnoreturn.sh
 source src/string.sh
 source src/tgmath.sh
