@@ -2,8 +2,6 @@
 
 # Copyright (C) 2021 Bader Zaidan
 
-source stdlib.sh
-
 NULL=0
 CLOCKS_PER_SEC=$[$(cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq)*1000]
 _STARTTIME_=$(date +%s)
