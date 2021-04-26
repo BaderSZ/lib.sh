@@ -5,13 +5,12 @@
 assert() {
   if [[$# == 0 ]]
   then
-    RETVAL=$(true)
     return ${EXIT_SUCCESS}
   fi
 
   if [[ (( $@ )) ]]
   then
-    RETVAL=$(true)
+    return ${EXIT_SUCCESS}
   else
     RETVAL=$(false)
     return ${EXIT_FAILURE}
