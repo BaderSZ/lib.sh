@@ -12,7 +12,7 @@ A: I was bored. :/
 So far, the only necessary packages are `bash` and `bc` for mathematical functions.
 
 #HOWTO
-Simply include the desired file via `source src/file.sh`. To include all, add `source lib.sh` to your script.
+Simply include the desired file via `source srd/stdlib.h && source src/file.sh`. To include all, add `source lib.sh` to your script.
 
 Since bash/sh does not have C-style returns, every return value is saved in the $RETVAL variable.
 
